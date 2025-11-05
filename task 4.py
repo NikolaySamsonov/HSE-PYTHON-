@@ -1,4 +1,4 @@
-# Ячейка 1: Исходные данные (можно разместить в отдельной ячейке в Jupyter или в начале файла в PyCharm)
+
 
 def get_owner_by_number(doc_number, docs):
 
@@ -38,4 +38,5 @@ number = input()
 if command == "P" :
     get_owner_by_number(number, documents)
 if command == "S" :
+
     get_shelf_by_number(number, directories)
